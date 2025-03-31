@@ -1,0 +1,91 @@
+html {
+    background: url('../images/fond4.png');
+    background-attachment: fixed;
+    padding: 10px;
+  }
+
+h3 {
+  font-size: 5rem;
+  font-family: 'Jumpman';
+  src: url('../font/Jumpman.ttf') format('truetype');
+  color: #e9ff20;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+h2 {
+    font-size: 3.8rem;
+    font-family: 'Jumpman';
+    src: url('../font/Jumpman.ttf') format('truetype');
+    color: #e9ff20;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-left: 10px;
+  }
+
+  p {
+    font-size: 1.8rem;
+    color: #ffffff;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    font-family: sans-serif;
+    text-shadow:
+        -0.5px -0.5px 0 #808080,
+         0.5px -0.5px 0 #808080,
+        -0.5px  0.5px 0 #808080,
+         0.5px  0.5px 0 #808080;
+  }
+
+  ul {
+    font-size: 1.8rem;
+    color: #ffffff;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    font-family: sans-serif;
+    text-shadow:
+        -0.5px -0.5px 0 #808080,
+         0.5px -0.5px 0 #808080,
+        -0.5px  0.5px 0 #808080,
+         0.5px  0.5px 0 #808080;
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-top: 20px;
+
+    padding: 15px 30px;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+  }
+
+  .banniere {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #8a8a8a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+  }

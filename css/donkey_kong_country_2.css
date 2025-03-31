@@ -1,0 +1,368 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  padding-top: 10px;
+  margin-bottom: 40px;
+  background-color: #443200;
+  border-radius: 10px;
+}
+
+html {
+  background: url('../images/fond2.png');
+  background-attachment: fixed;
+  margin: 10px;
+}
+
+.text-side {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.text-side h2 {
+  font-size: 4rem;
+  color: #FFCC00;
+  margin-bottom: 15px;
+  font-family: 'Jumpman';
+  src: url('../font/Jumpman.ttf') format('truetype');
+}
+
+.text-side p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+.info-side {
+  width: 300px;
+  text-align: center;
+}
+
+.game-box img {
+  width: 300px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.game-info {
+  background-color: #333;
+  padding: 15px;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+
+.game-info ul {
+  list-style-type: none;
+  padding: 0;
+  color: #fff;
+}
+
+.game-info li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.game-info li strong {
+  color: #FFCC00;
+}
+
+.game-details {
+  background-color: rgba(73, 73, 73, 0.5);
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.game-details h2 {
+  font-size: 5rem;
+  font-family: 'Jumpman';
+  src: url('../font/Jumpman.ttf') format('truetype');
+  color: #d46600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.game-details p {
+  font-size: 2rem;
+  color: #ffffff;
+  letter-spacing: 1px;
+  padding-left: 10px;
+  font-family: sans-serif;
+  padding-bottom: 30px;
+  border-bottom: 3px solid #000000;
+}
+
+.gameplay {
+  font-size: 2rem;
+  color: #ffffff;
+  letter-spacing: 1px;
+  padding-left: 10px;
+  padding-bottom: 30px;
+  font-family: sans-serif;
+  border-bottom: 3px solid #000000;
+}
+
+.structure {
+  font-size: 2rem;
+  color: #ffffff;
+  letter-spacing: 1px;
+  padding-left: 10px;
+  padding-bottom: 30px;
+  font-family: sans-serif;
+}
+
+.game-details li {
+  font-size: 1.8rem;
+  color: #ffffff;
+  letter-spacing: 1px;
+  margin-left: 40px;
+  margin-top: 5px;
+  font-family: sans-serif;
+}
+
+.character-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.character-table th, .character-table td {
+  border: 20px solide #ffcc00;
+  padding: 15px;
+  text-align: center;
+}
+
+.character-table th {
+  background-color: #6e5a00;
+  color: #ffffff;
+}
+
+.character-table td {
+  background-color: #443333;
+  color: #ffffff;
+}
+
+.character-table img {
+  width: 380px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0,0 ,0.5);
+}
+
+.character-table th:nth-child(1), .character-table td:nth-child(1) {
+  width: 20%;
+  font-size: 2.5rem;
+}
+
+.character-table th:nth-child(2), .character-table td:nth-child(2) {
+  width: 50%;
+  font-size: 2rem;
+}
+
+.character-table th:nth-child(3), .character-table td:nth-child(3) {
+  width: 30%;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff9900;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+}
+
+.btn:hover {
+  background-color: #ff9a00;
+}
+
+.worlds h2 {
+  font-family: 'Jumpman';
+  src: url('../font/Jumpman.ttf') format('truetype');
+  text-align: center;
+  font-size: 5rem;
+  color: #d46600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.worlds-menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  background-color: #443333;
+  color: #fff;
+  border: 1px solid #ffcc00;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin: 0 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-family: sans-serif;
+}
+
+.tab-button:hover {
+  background-color: #ff9a00;
+}
+
+.tab-button.active {
+  background-color: #ffcc00;
+  color: #333;
+}
+
+.world-details {
+  display: none;
+  background-color: #443333;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.world-details h3 {
+  font-size: 5rem;
+  text-align: center;
+  color: #ffcc00;
+  font-family: 'Jumpman';
+  src: url('../font/Jumpman.ttf') format('truetype');
+}
+
+.world-details p {
+  font-size: 1.1rem;
+}
+
+.levels-table {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+gap: 40px;
+margin-top: 20px;
+width: 100%;
+}
+
+.level {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.level-image img {
+width: auto;
+height: 380px;
+object-fit: cover;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+margin-right: 60px;
+}
+
+.level img:hover {
+transform: scale(1.05);
+}
+
+.level-name {
+font-size: 3.5rem;
+font-family: 'Jumpman';
+src: url('../font/Jumpman.ttf') format('truetype');
+color: #ffcc00;
+text-align: center;
+font-weight: bold;
+margin: 10px;
+padding-left: 40px;
+height: 390px;
+display: block;
+}
+
+.levels-images .level-image {
+display: flex;
+justify-content: flex-end;
+width: 100%;
+margin-bottom: 20px;
+}
+
+.level-description {
+display: block;
+font-size: 1.7rem;
+color: #fff;
+text-align: center;
+margin-top: 5px;
+line-height: 1.4;
+}
+
+.music-player {
+  background-color: rgba(73, 73, 73, 0.5);
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.music-player h2 {
+  font-size: 5rem;
+  font-family: 'Jumpman';
+  src: url('../font/Jumpman.ttf') format('truetype');
+  color: #d46600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.music-player p {
+  font-size: 2rem;
+  color: #ffffff;
+  letter-spacing: 1px;
+  padding-left: 10px;
+  font-family: sans-serif;
+}
+
+.music-row {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.music-row button {
+  background-color: #ffd900;
+  color: #333;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-family: 'Jumpman';
+  src: url('../font/Jumpman.ttf') format('truetype');
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.music-row button:hover {
+  background-color: #ffa51f;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 20px;
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin: 10px 0;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-align: center;
+  font-family: sans-serif;
+}

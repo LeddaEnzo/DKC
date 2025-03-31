@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Jumpman';
+    src: url('../font/Jumpman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Press Start 2P', monospace;
+    background-color: #111;
+    color: #fff;
+    overflow-x: hidden;
+  }
+  
+  .landing {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('../images/bg_jungle.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .title {
+    font-family: 'Jumpman', sans-serif;
+    font-size: 6.5rem;
+    font-weight: bold;
+    color: #d30707; -webkit-text-stroke: 1px #f3d148;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5), -3px -3px 5px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 2s ease-out;
+  }
+  
+  .subtitle {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    animation: fadeIn 3s ease-out;
+  }
+
+  .main-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .btn {
+    background-color: #FFCC00;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 10px 0;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 250px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  .btn:hover {
+    background-color: #FFB200;
+    transform: scale(1.1);
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity: 0; transform: translateY(-20px);}
+    100% {opacity: 1; transform: translateY(0);}
+  }
+  
+  @keyframes blink {
+    50% { opacity: 0; }
+  }
+  
+  .btn-start.blinking {
+    animation: blink 1s infinite;
+  }
+  
+  .landing {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/Bramble_Background.png');
+    background-repeat: repeat;
+    background-size: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
